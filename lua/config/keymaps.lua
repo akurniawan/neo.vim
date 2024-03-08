@@ -35,7 +35,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- Keeping the previous copy buffer intact while selecting other text
 vim.keymap.set("x", "<leader>p", "\"_dP")
 -- Replace current word below the cursor
-vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>")
+vim.keymap.set("n", "<leader>r", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left>")
 
 -- Allow clipboard copy paste in neovim
 vim.api.nvim_set_keymap('', '<D-v>', '+p<CR>', { noremap = true, silent = true})
