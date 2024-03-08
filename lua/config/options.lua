@@ -34,8 +34,6 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
 -- vim.o.guifont = "Fira Code:h12" -- text below applies for VimScript
 vim.o.guifont = "Berkeley Mono:h10" -- text below applies for VimScript
 vim.o.guicursor = "n-v-c-i:block-Cursor/lCursor-blinkwait100-blinkon500-blinkoff500"
