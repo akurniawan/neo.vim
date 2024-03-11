@@ -12,8 +12,8 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnos
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
-vim.keymap.set("i", "ks", "<C-c>:w<CR>")
-vim.keymap.set("i", "kj", "<C-c><CR>")
+vim.keymap.set("i", "kj", "<C-c>:w<CR>")
+-- vim.keymap.set("i", "kj", "<C-c><CR>")
 vim.keymap.set("n", "<leader>l", "<C-w>l")
 vim.keymap.set("n", "<leader>h", "<C-w>h")
 vim.keymap.set("n", "<leader>j", "<C-w>j")
