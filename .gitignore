@@ -1,4 +1,6 @@
 *
 
-!nvim/*
+!nvim
+!nvim/**
+!alacritty
 !alacritty/*
