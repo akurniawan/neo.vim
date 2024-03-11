@@ -1,5 +1,6 @@
 *
 
+!.tmux.conf
 !nvim
 !nvim/**
 !alacritty
