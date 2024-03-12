@@ -93,6 +93,16 @@ key = "W"
 mods = "Command"
 
 [[keyboard.bindings]]
+chars = "\u0002\u001B\u001B[B"
+key = "J"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0002\u001B\u001B[A"
+key = "K"
+mods = "Command"
+
+[[keyboard.bindings]]
 chars = "\u0002c"
 key = "T"
 mods = "Command"
