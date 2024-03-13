@@ -107,3 +107,5 @@ key_bindings:
   - { key: Down,  mods: Command,       chars: "\x02\x1b\x5b\x42" }
   - { key: Up,    mods: Command,       chars: "\x02\x1b\x5b\x41" }
   - { key: RBracket, mods: Command,       chars: "\x02\x1b\x5b\x43" }
+  - { key: Tab,    mods: Control,       chars: "\x02\x6e" }
+  - { key: Tab, mods: Control|Shift,       chars: "\x02\x70" }

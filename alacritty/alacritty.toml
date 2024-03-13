@@ -177,6 +177,16 @@ chars = "\u0002\u001B[C"
 key = "RBracket"
 mods = "Command"
 
+[[keyboard.bindings]]
+chars = "\u0002n"
+key = "Tab"
+mods = "Control"
+
+[[keyboard.bindings]]
+chars = "\u0002p"
+key = "Tab"
+mods = "Control|Shift"
+
 [window]
 decorations = "buttonless"
 dynamic_padding = false
